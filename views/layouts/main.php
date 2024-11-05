@@ -72,7 +72,7 @@ $uploadModel = new UploadForm();
                     <?= Html::submitButton(Yii::t('app', 'Upload'), ['class' => 'btn btn-primary', 'name' => 'upload-button']) ?>
                 </div>
             </div>
-
+            <div> <a href="<?= Yii::$app->params['mainProject']?>">Go back to Main Page</a>  </div>
             <?php ActiveForm::end(); ?>        
     </div>
 </div>    
